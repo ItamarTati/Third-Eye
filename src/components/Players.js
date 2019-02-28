@@ -5,7 +5,7 @@ export default class Players extends Component {
     {
         return (
             <div>
-                <h1>Players</h1> 
+                <h1 id ='players'>Players</h1> 
             </div>
             
         );
