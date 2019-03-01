@@ -10,7 +10,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,8 +32,7 @@
   }
 }
 header{
-  height: 800px;
-  min-height: 500px;
+  height: 100%;
   width: 100%;
   position: relative;
   background-size: cover !important;
@@ -41,6 +40,7 @@ header{
   text-align: center;
   overflow: hidden;
 }
+
 .title {
   position: relative;
   text-align: center;
@@ -55,7 +55,7 @@ header{
 }
 
 .top h1 {
-  font-family: "Palatino Linotype", cursive;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 3em;
   letter-spacing: 2px;
   word-spacing: 0%;
@@ -65,17 +65,39 @@ header{
   font-style: italic;
   font-variant: normal;
   text-transform: capitalize;
-  text-shadow:
-  -1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;  
-
-
+  text-shadow: 0 1px 0 #ccc,
+  0 2px 0 #c9c9c9,
+  0 3px 0 #bbb,
+  0 4px 0 #b9b9b9,
+  0 5px 0 #aaa,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
+  ;
  }
  @media only screen and (max-width: 800px) {
   .top h1 {
-    font-family: "Palatino Linotype", cursive;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    letter-spacing: 2px;
+    word-spacing: 0%;
+    color: whitesmoke;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+  }
+}
+
+
+ @media only screen and (max-width: 600px) {
+  .top h1 {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     letter-spacing: 2px;
     word-spacing: 0%;
@@ -85,34 +107,6 @@ header{
     font-style: italic;
     font-variant: normal;
     text-transform: capitalize;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
-  
-  }
-}
-
-
- @media only screen and (max-width: 600px) {
-  .top h1 {
-    font-family: "Palatino Linotype", cursive;
-    font-size: 1em;
-    letter-spacing: 2px;
-    word-spacing: 0%;
-    color: whitesmoke;
-    font-weight: 700;
-    text-decoration: none;
-    font-style: italic;
-    font-variant: normal;
-    text-transform: capitalize;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
-  
   }
 }
 
@@ -153,7 +147,7 @@ header{
   align-items: center;
   justify-content: center;
   background-color: #0e242d;
-  height: 100vh;
+  height: 100%;
 }
 html {
   scroll-behavior: smooth;
@@ -167,4 +161,67 @@ video {
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:auto;
+  filter: brightness(45%);
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  
+  background: white;
+}
+
+.container > * {
+  flex: 3; 
+  flex-basis: 350px;
+  border: 0px solid rgb(14, 27, 14); 
+  position: relative;
+  overflow: hidden; 
+}
+
+.players img {
+  padding: 5px;
+  width: 95%;
+  height: 95%;
+}
+.players-overlay {
+  transition: bottom ease 1s; 
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%; 
+  background-color: black;
+  opacity: .6; 
+}
+
+.players:hover .players-overlay {
+  opacity: .6;
+  bottom: 0; 
+}
+
+.players h1{
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+.players p {
+  color:white;
+}
+
+
