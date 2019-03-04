@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: grid;
+
 }
 
 .App-logo {
@@ -39,12 +41,15 @@ header{
  -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
+  display: block;
+  
 }
 
 .title {
   position: relative;
   text-align: center;
   color: white;
+  display: block;
 }
 
 .top {
@@ -56,7 +61,7 @@ header{
 
 .top h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3em;
+  font-size: 50px;
   letter-spacing: 2px;
   word-spacing: 0%;
   color: whitesmoke;
@@ -65,11 +70,11 @@ header{
   font-style: italic;
   font-variant: normal;
   text-transform: capitalize;
-  text-shadow: 0 1px 0 #ccc,
-  0 2px 0 #c9c9c9,
-  0 3px 0 #bbb,
-  0 4px 0 #b9b9b9,
-  0 5px 0 #aaa,
+  text-shadow: 0 1px 0 black,
+  0 2px 0 black,
+  0 3px 0 black,
+  0 4px 0 black,
+  0 5px 0 black,
   0 6px 1px rgba(0,0,0,.1),
   0 0 5px rgba(0,0,0,.1),
   0 1px 3px rgba(0,0,0,.3),
@@ -82,7 +87,7 @@ header{
  @media only screen and (max-width: 800px) {
   .top h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3em;
+    font-size: 30px;
     letter-spacing: 2px;
     word-spacing: 0%;
     color: whitesmoke;
@@ -98,7 +103,7 @@ header{
  @media only screen and (max-width: 600px) {
   .top h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 30px;
     letter-spacing: 2px;
     word-spacing: 0%;
     color: whitesmoke;
@@ -148,9 +153,11 @@ header{
   justify-content: center;
   background-color: #0e242d;
   height: 100%;
+
 }
 html {
   scroll-behavior: smooth;
+  display:block
 
 }
 video {
@@ -161,7 +168,42 @@ video {
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:auto;
-  filter: brightness(45%);
+  filter: brightness(40%);
+  display: block;
+}
+#roster{
+  background-color: #008000;
+  display:block;
+  font-size: 30px;
+  color: whitesmoke;
+  text-align: center;
+  display: block;
+}
+#roster h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 0%;
+  color: whitesmoke;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: capitalize;
+  text-shadow: 0 1px 0 black,
+  0 2px 0 black,
+  0 3px 0 black,
+  0 4px 0 black,
+  0 5px 0 black,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
+  ;
+  bottom: 50%;
 }
 
 .container {
@@ -170,8 +212,7 @@ video {
   height: 100%;
   width: 100%;
   overflow: auto;
-  
-  background: white;
+  background-color: black;
 }
 
 .container > * {
@@ -180,12 +221,17 @@ video {
   border: 0px solid rgb(14, 27, 14); 
   position: relative;
   overflow: hidden; 
+  display: block;
+}
+
+.players{
+  display: block; 
 }
 
 .players img {
-  padding: 5px;
-  width: 95%;
-  height: 95%;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 .players-overlay {
   transition: bottom ease 1s; 
@@ -204,7 +250,7 @@ video {
 
 .players h1{
   display: block;
-  font-size: 2em;
+  font-size: 20px;
   margin-top: 0.67em;
   margin-bottom: 0.67em;
   margin-left: 0;
@@ -222,6 +268,37 @@ video {
 }
 .players p {
   color:white;
+  font-size: 10px;
 }
+.secondContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  
+  background: white;
+}
+
+.secondContainer > * {
+  flex: 2; 
+  flex-basis: 500px;
+  border: 0px solid rgb(14, 27, 14); 
+  position: relative;
+  overflow: hidden; 
+}
+
+.nextGame img {
+  width: 425px;
+  max-height: 400px;
+}
+
+.media{
+  height: 100%;
+  font-size: 20px;
+}
+
+
+
 
 
