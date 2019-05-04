@@ -6,7 +6,7 @@ import React, { PureComponent } from 'react';
 
 class Header extends PureComponent {
     /**
-     * Creates the HomeHero component.
+     * Creates the Header component.
      *
      * @param {Object} props
      * @return {void}
