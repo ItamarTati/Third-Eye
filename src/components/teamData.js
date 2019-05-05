@@ -41,11 +41,7 @@ let teamData =
         lives have been impacted by war. He possesses an innate desire to help people. In correspondence obtained by 
         Trung Le Nguyen, Cuerva noted that Baptiste is a skilled marksman despite being a medic, and boasted unusually 
         high endurance, versatility, and even luck. Baptiste loves to eat—it's been suggested that his favorite dish is 
-        pork griot and lalo. Not many people know that he has a sweet tooth, and he loves to kick back with a tall drink 
-        with a lot of ice. He is fluent in Haitian Creole, French, and English. His equipment is a collection of 
-        armor and weaponry acquired over the years. Some are from the black market, and some are modified from his 
-        Caribbean Coalition and Talon gear; Baptiste has always been resourceful. Baptiste is an only child, but has 
-        several cousins.`
+        pork griot and lalo.`
       },
     {
         "playerName":"D.Va",

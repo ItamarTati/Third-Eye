@@ -9,7 +9,11 @@ export default class Roster extends Component {
         <h2>{teamData.teamName}</h2>
         
         <div className='container'>
-        {teamData.players.map((item)=>{
+        {teamData.players.sort(function(a, b){
+                if(a.playerName < b.playerName) { return -1; }
+                if(a.playerName > b.playerName) { return 1; }
+                return 0;
+        }).map((item) => {
         return (
         <div className='players'>
                 <img src = {(`${item.imgurl}`)} alt = {item.playerName}/> 
