@@ -4,7 +4,7 @@ let teamData =
 "players":[
     {
       "playerName":"Brigitte",
-      "imgurl":"/images/Icon-Brigitte.png",
+      "imgurl":"./images/Icon-Brigitte.png",
       "playerWiki":`Brigitte is the youngest daughter of Torbjörn and Ingrid Lindholm, and is a traveling companion 
       of Reinhardt Wilhelm. No longer sitting on the sidelines, Brigitte Lindholm has taken up arms to defend those 
       in need of protection. She is very stubborn, a trait inherited from her father. Brigitte spars with Reinhardt 
@@ -12,7 +12,7 @@ let teamData =
     },
     {
         "playerName":"Mercy",
-        "imgurl":"/images/Icon-Mercy.png",
+        "imgurl":"./images/Icon-Mercy.png",
         "playerWiki":`A guardian angel to those who come under her care, Dr. Angela Ziegler is a peerless healer, a 
         brilliant scientist, and a staunch advocate for peace. She is one of the most gifted doctors in the world when
          it comes to medical technology, and has applied such technology to her own body; effects have possibly included 
@@ -20,14 +20,14 @@ let teamData =
       },
     {
         "playerName":"Reinhardt",
-        "imgurl":"/images/Icon-Reinhardt.png",
+        "imgurl":"./images/Icon-Reinhardt.png",
         "playerWiki":`Reinhardt Wilhelm styles himself as a champion of a bygone age, who lives by the knightly codes 
         of valor, justice, and courage. Possessing an "active imagination," he enjoys eating currywurst, and is a fan 
         of David Hasselhoff's music. He spars with Brigitte every day, after which they go to a pub or tavern to relax.`
       },
     {
         "playerName":"Bastion",
-        "imgurl":"/images/Icon-Bastion.png",
+        "imgurl":"./images/Icon-Bastion.png",
         "playerWiki":`Once a frontline combatant in the devastating Omnic Crisis, Bastion has all but lost its combat 
         programming and now explores its surroundings, fascinated by the world and its inhabitants. Though Bastion's new 
         nature is gentle, its core combat programming takes over when the unit senses danger, utilizing its entire arsenal 
@@ -36,7 +36,7 @@ let teamData =
       },
     {
         "playerName":"Baptiste",
-        "imgurl":"/images/Baptiste_portrait.png",
+        "imgurl":"./images/Baptiste_portrait.png",
         "playerWiki":`An elite combat medic and ex-Talon operative, Baptiste now uses his skills to help those whose 
         lives have been impacted by war. He possesses an innate desire to help people. In correspondence obtained 
         by Trung Le Nguyen, Cuerva noted that Baptiste is a skilled marksman despite being a medic, and boasted 
@@ -48,7 +48,7 @@ let teamData =
       },
     {
         "playerName":"D.Va",
-        "imgurl":"/images/Icon-D.Va.png",
+        "imgurl":"./images/Icon-D.Va.png",
         "playerWiki":`D.Va is a former professional gamer who now uses her skills to pilot a state-of-the-art mech in 
         defense of her homeland. She is a very competitive individual, and coupled with her pro-gamer skills, this 
         makes her an extremely effective mech pilot. Never backing down, D.Va always plays to win. While she projects a 
@@ -57,7 +57,7 @@ let teamData =
       },
       {
         "playerName":"Ana",
-        "imgurl":"/images/Icon-Ana.png",
+        "imgurl":"./images/Icon-Ana.png",
         "playerWiki":`One of the founding members of Overwatch, Ana uses her skills and expertise to defend her home 
         and the people she cares for. Hailing from a long line of decorated soldiers, Ana inspired confidence and 
         loyalty in her colleagues and endowed her daughter, Fareeha Amari — Pharah, with an intense sense of duty and 
@@ -66,14 +66,14 @@ let teamData =
       },
       {
         "playerName":"Lúcio",
-        "imgurl":"/images/Icon-Lúcio.png",
+        "imgurl":"./images/Icon-Lúcio.png",
         "playerWiki":`Lúcio is an international celebrity who inspires social change through his music and actions. 
         He has a positive, up-beat attitude, and is always looking towards the future. Lúcio wears hard-light skates 
         that project hard-light "blades," allowing him to traverse any surface.`
       },
       {
         "playerName":"Orisa",
-        "imgurl":"/images/Icon-Orisa.png",
+        "imgurl":"./images/Icon-Orisa.png",
         "playerWiki":`Orisa is a newly-created omnic with both a heart and personality. Urged to become a hero by 
         her creator, Efi Oladele, Orisa strives to right wrongs and act as the hero the world needs. While her 
         relative inexperience can make her an occasional liability, Efi's optimism and willingness to make 
@@ -84,7 +84,7 @@ let teamData =
       },
       {
         "playerName":"Tracer",
-        "imgurl":"/images/Icon-Tracer.png",
+        "imgurl":"./images/Icon-Tracer.png",
         "playerWiki":`The former Overwatch agent known as Tracer is a time-jumping adventurer and an irrepressible 
         force for good. She hails from London, and has traveled all over the world.She was a great admirer of 
         Tekhartha Mondatta, and was inspired by Mei, an Overwatch scientist. She believes that sometimes, one simply 
@@ -92,7 +92,7 @@ let teamData =
       },
       {
         "playerName":"Moira",
-        "imgurl":"/images/Icon-Moira.png",
+        "imgurl":"./images/Icon-Moira.png",
         "playerWiki":`
         Equal parts brilliant and controversial, scientist Moira O'Deorain is on the cutting edge of genetic 
         engineering, searching for a way to rewrite the fundamental building blocks of life. Though O'Deorain will go 
@@ -107,7 +107,7 @@ let teamData =
       },
       {
         "playerName":"Torbjörn",
-        "imgurl":"/images/Icon-Torbjörn.png",
+        "imgurl":"./images/Icon-Torbjörn.png",
         "playerWiki":`Torbjörn Lindholm (called "Torby" by his friends) is one of the greatest weaponsmiths and 
         engineers in the world. He has a low opinion of omnics, believing them to be incapable of empathy, instead 
         acting purely on logic, and disagrees with giving them the same rights as humans.`
