@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  display: grid;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  display:block
+}
+
+
+
+
+
