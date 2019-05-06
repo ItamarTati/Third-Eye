@@ -6,7 +6,7 @@ class Navbar extends React.Component {
         return(
             <div class="header header-fixed">
             <div class="navbar container">
-                <div class="logo"><a href="#home">Golden Lions</a></div>
+                <div class="logo"><a href="#home"><img src = './images/Golden Lion Logo.jpg' /></a></div>
                 <label for="navbar-toggle"><i></i></label>
                 <nav class="menu">
                     <ul>
