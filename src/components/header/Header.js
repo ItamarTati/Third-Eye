@@ -57,7 +57,7 @@ class Header extends PureComponent {
 
         return (
             <header >
-          
+                <Navbar />
                 <div >
                     <div >
                         {  (
