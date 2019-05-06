@@ -1,6 +1,8 @@
 import OverwatchVideo from './overwatchVideo.mp4'
 import React, { PureComponent } from 'react';
 import './Header.css'
+import Navbar from '../navbar/Navbar.js'
+
 
 
 //Users/itamartati/Documents/Itamar's Work/third-eye/src/Video
@@ -55,6 +57,7 @@ class Header extends PureComponent {
 
         return (
             <header >
+          
                 <div >
                     <div >
                         {  (
