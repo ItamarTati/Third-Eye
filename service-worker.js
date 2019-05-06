@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Third-Eye/precache-manifest.653e38231b9c0eda9e641c6c0c1cb9d7.js"
+  "/Third-Eye/precache-manifest.a500c8b87517e6dada2b1ecf8305f620.js"
 );
 
 workbox.clientsClaim();
