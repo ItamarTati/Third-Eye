@@ -1,7 +1,6 @@
 import OverwatchVideo from './overwatchVideo.mp4'
 import React, { PureComponent } from 'react';
 import './Header.css'
-import Navbar from '../navbar/Navbar.js'
 
 
 
@@ -9,12 +8,7 @@ import Navbar from '../navbar/Navbar.js'
 
 
 class Header extends PureComponent {
-    /**
-     * Creates the Header component.
-     *
-     * @param {Object} props
-     * @return {void}
-     */
+
     constructor(props) {
         super(props);
 
@@ -25,11 +19,7 @@ class Header extends PureComponent {
         this.toggleVideoVisibility = this.toggleVideoVisibility.bind(this);
     }
 
-    /**
-     * Toggles the video visibility.
-     *
-     * @return {void}
-     */
+    
     toggleVideoVisibility() {
         const {
             isVideoVisible,
@@ -37,27 +27,13 @@ class Header extends PureComponent {
 
         this.setState({ isVideoVisible: !isVideoVisible });
     }
-
-    /**
-     * Renders video modal component.
-     *
-     * @return {ReactNode}
-     */
-
-
-    /**
-     * Renders component.
-     *
-     * @return {ReactNode}
-     */
     render() {
         const {
             isVideoVisible,
         } = this.state;
 
         return (
-            <header >
-                <Navbar />
+            <header id = 'home'>
                 <div >
                     <div >
                         {  (

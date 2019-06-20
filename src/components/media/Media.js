@@ -4,8 +4,8 @@ export default class Media extends Component {
     render()
     {
         return (
-            <div className = 'media'>
-                <h1>Media</h1> 
+            <div id = 'social media' className = 'media'>
+                <h1>Social Media</h1> 
                 <div className = 'container'>
                     <div>
                         <a class="twitter-timeline" data-height="400" data-dnt="true" data-theme="light" 

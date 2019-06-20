@@ -4,7 +4,7 @@ export default class Roster extends Component {
     render(){
         let teamData = this.props.teamData;
         return (
-        <div className = 'roster'>   
+        <div className = 'roster' id = 'roster' >   
         <div>
         <h2>{teamData.teamName}</h2>
         

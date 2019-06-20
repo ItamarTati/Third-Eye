@@ -1,6 +1,16 @@
 let teamData =
 { 
 'teamName' : 'The Golden Lions', 
+'teamBio' : `Overwatch is a team-based multiplayer first-person shooter developed and published by Blizzard 
+              Entertainment and released on May 24, 2016 for PlayStation 4, Xbox One, and Windows. Described as a "hero shooter", 
+              Overwatch assigns players into two teams of six, with each player selecting from a roster of 31 characters, known as 
+              "heroes", each with a unique style of play whose roles are divided into three general categories that fit their role. 
+              Players on a team work together to secure and defend control points on a map or escort a payload across the map in a 
+              limited amount of time. Players gain cosmetic rewards that do not affect gameplay, such as character skins and victory 
+              poses, as they play the game. The game was initially launched with casual play, with a competitive ranked mode, various
+              'arcade' game modes, and a player-customizable server browser subsequently included following its release. Additionally, 
+              Blizzard has added new characters, maps, and game modes post-release, all free of charge, with the only additional cost 
+              to players being optional loot boxes to earn cosmetic items.`, 
 "players":[
     {
       "playerName":"Brigitte",
