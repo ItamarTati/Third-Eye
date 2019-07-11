@@ -1,9 +1,7 @@
 .roster{
     background-color: #FDB927;
-    display:block;
     color: rgb(17, 4, 4);
     text-align: center;
-    display: block;
   }
   h2 {    
     font-family: Arial, Helvetica, sans-serif;
@@ -71,7 +69,6 @@
   }
   
   .players h1{
-    display: block;
     font-size: 12px;
     margin-top: 0.67em;
     margin-bottom: 0.67em;

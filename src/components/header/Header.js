@@ -3,10 +3,6 @@ import React, { PureComponent } from 'react';
 import './Header.css'
 
 
-
-//Users/itamartati/Documents/Itamar's Work/third-eye/src/Video
-
-
 class Header extends PureComponent {
 
     constructor(props) {
