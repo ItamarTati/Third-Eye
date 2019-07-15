@@ -3,6 +3,8 @@ import React, { PureComponent } from 'react';
 import './Header.css'
 
 
+
+
 class Header extends PureComponent {
 
     constructor(props) {
@@ -53,7 +55,6 @@ class Header extends PureComponent {
                     </div>
                 </div>
                 { isVideoVisible && this.renderVideoModal() }
-                <div><h1>The Love</h1></div>
             </header>
         );
     }

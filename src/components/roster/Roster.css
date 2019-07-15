@@ -44,7 +44,6 @@
     flex: 3; 
     flex-basis: 350px;
     border: 0px solid rgb(14, 27, 14); 
-    position: relative;
     overflow: hidden;
     background-color: #000000;  
   }
