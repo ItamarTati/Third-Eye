@@ -2,11 +2,8 @@ import OverwatchVideo from './overwatchVideo.mp4'
 import React, { PureComponent } from 'react';
 import './Header.css'
 
-
-
-
 class Header extends PureComponent {
-
+    
     constructor(props) {
         super(props);
 
@@ -17,7 +14,7 @@ class Header extends PureComponent {
         this.toggleVideoVisibility = this.toggleVideoVisibility.bind(this);
     }
 
-    
+
     toggleVideoVisibility() {
         const {
             isVideoVisible,
@@ -31,10 +28,10 @@ class Header extends PureComponent {
         } = this.state;
 
         return (
-            <header id = 'home'>
-                <div >
-                    <div >
-                        {  (
+            <div>
+            <header id = 'home' className = 'header'>        
+                        {     
+                        (
                             <video
                                 poster= {OverwatchVideo}
                                 preload="true"
@@ -51,11 +48,10 @@ class Header extends PureComponent {
                                     type="video/mp4"
                                 />
                             </video>
-                        ) }
-                    </div>
-                </div>
+                        ) }     
                 { isVideoVisible && this.renderVideoModal() }
             </header>
+            </div>
         );
     }
 }

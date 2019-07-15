@@ -11,12 +11,13 @@ class App extends Component {
   render() {
     return (
       <div className="App"> 
-        <Navbar />
+        <Navbar/>
         <Header teamData={teamData} />
         <About teamData={teamData} />
         <Roster teamData={teamData} />
         <Media teamData={teamData} />
       </div>
+      
       
     );
   }

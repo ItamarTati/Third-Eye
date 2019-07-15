@@ -5,6 +5,7 @@
   width: 100%;
   overflow: auto;
   background-color: black;
+  z-index:2;
 }
 
 .container > * {

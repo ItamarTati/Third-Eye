@@ -1,6 +1,6 @@
 let teamData =
 { 
-'teamName' : 'The Golden Lions', 
+'teamName' : 'Overwatch Heros', 
 'teamBio' : `Overwatch is a team-based multiplayer first-person shooter developed and published by Blizzard 
               Entertainment and released on May 24, 2016 for PlayStation 4, Xbox One, and Windows. Described as a "hero shooter", 
               Overwatch assigns players into two teams of six, with each player selecting from a roster of 31 characters, known as 

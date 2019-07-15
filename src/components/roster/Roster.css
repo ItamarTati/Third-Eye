@@ -2,8 +2,9 @@
     background-color: #FDB927;
     color: rgb(17, 4, 4);
     text-align: center;
+    z-index:2;
   }
-  h2 {    
+  h2 {  
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     letter-spacing: 2px;
