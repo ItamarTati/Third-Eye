@@ -3,6 +3,7 @@
     min-width: 100%;
     background: black;
     z-index:2;
+    padding-top: 3%; 
   }
   video {
     width: 100%;

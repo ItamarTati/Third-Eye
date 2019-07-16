@@ -7,6 +7,7 @@ import About from '../about/About'
 import teamData from '../teamData'
 import Navbar from '../navbar/Navbar.js'
 
+
 class App extends Component {
   render() {
     return (

@@ -2,11 +2,12 @@
   overflow: hidden;
   background-color: #333;
   position: fixed;
-  top: 0;
   width: 100%;
   z-index:1;
+  top: 0%;  
   
 }
+
 ul {
   list-style-type: armenian;
   margin: 0;

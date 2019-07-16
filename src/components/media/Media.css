@@ -6,6 +6,7 @@
   overflow: auto;
   background-color: black;
   z-index:2;
+  
 }
 
 .container > * {
@@ -25,6 +26,7 @@
   .media{
     height: 100%;
     font-size: 20px;
+    padding-top: 2%; 
   }
   h1{
     text-align: center;
