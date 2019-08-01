@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Roster.css'
+import './Roster.scss'
 export default class Roster extends Component {
     render(){
         let teamData = this.props.teamData;
@@ -8,7 +8,7 @@ export default class Roster extends Component {
         <div>
         <h2>{teamData.teamName}</h2>
         
-        <div className='container'>
+        <div className='players-container'>
         {teamData.players.sort(function(a, b){
                 if(a.playerName < b.playerName) { return -1; }
                 if(a.playerName > b.playerName) { return 1; }

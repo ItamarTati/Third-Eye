@@ -31,7 +31,7 @@
     ;
     bottom: 50%;
   }
-  .container {
+  .players-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     height: 100%;
@@ -42,7 +42,7 @@
     margin-right: auto;
   }
   
-  .container > * {
+  .players-container > * {
     flex: 3; 
     flex-basis: 350px;
     border: 0px solid rgb(14, 27, 14); 
@@ -52,22 +52,14 @@
   
  
   .players-overlay {
-    transition: bottom ease 1s; 
-    position: absolute;
-    bottom: -100%;
+    position: relative;
     left: 0;
     width: 100%; 
     background-color: white;
-    opacity: .6; 
+    opacity: .5; 
   }
   
-  .players{
-     
-  }
-  .players:hover .players-overlay {
-    opacity: .6;
-    bottom: 0; 
-  }
+
   
   .players h1{
     font-size: 12px;

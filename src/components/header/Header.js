@@ -1,6 +1,6 @@
 import OverwatchVideo from './overwatchVideo.mp4'
 import React, { PureComponent } from 'react';
-import './Header.css'
+import './Header.scss'
 
 class Header extends PureComponent {
     
@@ -14,7 +14,7 @@ class Header extends PureComponent {
         this.toggleVideoVisibility = this.toggleVideoVisibility.bind(this);
     }
 
-
+options
     toggleVideoVisibility() {
         const {
             isVideoVisible,
